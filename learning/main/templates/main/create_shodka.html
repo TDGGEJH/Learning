@@ -1,0 +1,11 @@
+{% extends "main/hat.html" %}
+
+{% block body %}
+<form method="post">
+    {% csrf_token %}
+    {{ form.title }}<br>
+    {{ form.location }}<br>
+    {{ form.desk }}<br>
+    <button type="submit" class="btn btn-success">Создать</button>
+</form>
+{% endblock %}

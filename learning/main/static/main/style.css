@@ -1,0 +1,62 @@
+body{
+    background-color: #A2A1A9;
+}
+
+.hat{
+    background-color: #394053;
+    border-bottom-style: solid;
+}
+
+h1, h2, h3, h4{
+    color: #FDB10B;
+}
+
+.hat nav button{
+    background-color: #FDB10B;
+}
+
+.hat nav button:hover{
+    background-color: #FE8535;
+    transition: all 0.6s ease;
+}
+
+aside{
+    float: left;
+    border-right-style: solid;
+    height: 100vh;
+    background-color: #394053;
+}
+
+aside ul li{
+    list-style-type: none;
+    color: #FDB10B;
+}
+
+aside ul a{
+    text-decoration:none;
+}
+
+aside ul li:hover, aside ul a:hover{
+    color: #FE8535;
+    transition: all 0.6s ease;
+}
+
+main{
+    background-color: #A2A1A9;
+    height: 100vh;
+}
+
+main h1{
+    color: #FDB10B;
+}
+
+p{
+    color: #3c2c36;
+}
+
+.form-inp{
+    font-size: large;
+}
+form{
+    overflow: scroll;
+}
